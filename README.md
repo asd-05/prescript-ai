@@ -27,24 +27,24 @@ Upload a prescription, and the app will intelligently analyze it using **Google 
 ```bash
 git clone https://github.com/your-username/prescript-ai.git
 cd prescript-ai
-
+```
 ### 2. Install dependencies
-
+```bash
 npm install
 # or
 yarn install
-
+```
 ### 3. Set up environment variables
+```bash
 Create a .env.local file in the project root and add:
 GOOGLE_API_KEY=your_google_api_key
 GEMINI_API_KEY=your_gemini_api_key
-
+```
 ### 4. Run the development server
-
+```bash
 npm run dev
 # or
 yarn dev
-
-
-Open http://localhost:3000
- in your browser.
+```
+### 5. Start the app
+Open http://localhost:3000 in your browser.
